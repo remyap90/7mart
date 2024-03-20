@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AdminTest(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.obsqura.tests.AdminTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="createAdmin"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.AdminTest -->
+    </classes>
+  </test> <!-- AdminTest(failed) -->
+  <test thread-count="5" name="ExpenseRecordTest(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="com.obsqura.tests.ExpenseRecordTest">
+        <methods>
+          <include name="initDriver"/>
+          <include name="verifyUserIsAbleTocreateExpenseRecord"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.obsqura.tests.ExpenseRecordTest -->
+    </classes>
+  </test> <!-- ExpenseRecordTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

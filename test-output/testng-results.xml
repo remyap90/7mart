@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-20T11:42:33 IST" name="Suite" finished-at="2024-03-20T11:43:28 IST" duration-ms="55210">
+    <groups>
+      <group name="Smoke">
+        <method signature="CreateNewsTest.createNews()[pri:0, instance:com.obsqura.tests.CreateNewsTest@707194ba]" name="createNews" class="com.obsqura.tests.CreateNewsTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-03-20T11:42:33 IST" name="Login Test" finished-at="2024-03-20T11:42:41 IST" duration-ms="8064">
+      <class name="com.obsqura.tests.LoginTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.obsqura.tests.LoginTest@22ff4249]" started-at="2024-03-20T11:42:33 IST" name="initDriver" finished-at="2024-03-20T11:42:39 IST" duration-ms="5888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="verifyUserIsAbleToLogin()[pri:0, instance:com.obsqura.tests.LoginTest@22ff4249]" started-at="2024-03-20T11:42:39 IST" name="verifyUserIsAbleToLogin" finished-at="2024-03-20T11:42:41 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleToLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.tests.LoginTest@22ff4249]" started-at="2024-03-20T11:42:41 IST" name="tearDown" finished-at="2024-03-20T11:42:41 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.tests.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2024-03-20T11:42:41 IST" name="CreateDeleteExpenseTest" finished-at="2024-03-20T11:42:50 IST" duration-ms="8789">
+      <class name="com.obsqura.tests.CreateDeleteExpenseTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.obsqura.tests.CreateDeleteExpenseTest@3d34d211]" started-at="2024-03-20T11:42:41 IST" name="initDriver" finished-at="2024-03-20T11:42:45 IST" duration-ms="3503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="verifyUserIsAbleTocreateDeleteExpense()[pri:0, instance:com.obsqura.tests.CreateDeleteExpenseTest@3d34d211]" started-at="2024-03-20T11:42:45 IST" name="verifyUserIsAbleTocreateDeleteExpense" finished-at="2024-03-20T11:42:50 IST" duration-ms="5093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleTocreateDeleteExpense -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.tests.CreateDeleteExpenseTest@3d34d211]" started-at="2024-03-20T11:42:50 IST" name="tearDown" finished-at="2024-03-20T11:42:50 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.tests.CreateDeleteExpenseTest -->
+    </test> <!-- CreateDeleteExpenseTest -->
+    <test started-at="2024-03-20T11:42:50 IST" name="CreateDeliveryBoyTest" finished-at="2024-03-20T11:43:08 IST" duration-ms="18526">
+      <class name="com.obsqura.tests.CreateDeliveryBoyTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.obsqura.tests.CreateDeliveryBoyTest@394df057]" started-at="2024-03-20T11:42:50 IST" name="initDriver" finished-at="2024-03-20T11:42:53 IST" duration-ms="3033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="createDeliveryBoy(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.obsqura.tests.CreateDeliveryBoyTest@394df057]" started-at="2024-03-20T11:42:53 IST" name="createDeliveryBoy" data-provider="getData" finished-at="2024-03-20T11:42:59 IST" duration-ms="5646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nisyy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user501009378]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[150931938]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDeliveryBoy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.tests.CreateDeliveryBoyTest@394df057]" started-at="2024-03-20T11:42:59 IST" name="tearDown" finished-at="2024-03-20T11:42:59 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.obsqura.tests.CreateDeliveryBoyTest@394df057]" started-at="2024-03-20T11:42:59 IST" name="initDriver" finished-at="2024-03-20T11:43:02 IST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="createDeliveryBoy(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.obsqura.tests.CreateDeliveryBoyTest@394df057]" started-at="2024-03-20T11:43:02 IST" name="createDeliveryBoy" data-provider="getData" finished-at="2024-03-20T11:43:08 IST" duration-ms="6656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Remya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user355806830]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[315210280]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDeliveryBoy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.tests.CreateDeliveryBoyTest@394df057]" started-at="2024-03-20T11:43:08 IST" name="tearDown" finished-at="2024-03-20T11:43:08 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.tests.CreateDeliveryBoyTest -->
+    </test> <!-- CreateDeliveryBoyTest -->
+    <test started-at="2024-03-20T11:43:08 IST" name="CreateNewsTest" finished-at="2024-03-20T11:43:16 IST" duration-ms="7071">
+      <class name="com.obsqura.tests.CreateNewsTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.obsqura.tests.CreateNewsTest@707194ba]" started-at="2024-03-20T11:43:08 IST" name="initDriver" finished-at="2024-03-20T11:43:11 IST" duration-ms="2193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="createNews()[pri:0, instance:com.obsqura.tests.CreateNewsTest@707194ba]" started-at="2024-03-20T11:43:11 IST" name="createNews" finished-at="2024-03-20T11:43:15 IST" duration-ms="4717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNews -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.tests.CreateNewsTest@707194ba]" started-at="2024-03-20T11:43:15 IST" name="tearDown" finished-at="2024-03-20T11:43:16 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.tests.CreateNewsTest -->
+    </test> <!-- CreateNewsTest -->
+    <test started-at="2024-03-20T11:43:16 IST" name="AdminTest" finished-at="2024-03-20T11:43:20 IST" duration-ms="3999">
+      <class name="com.obsqura.tests.AdminTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.obsqura.tests.AdminTest@385e9564]" started-at="2024-03-20T11:43:16 IST" name="initDriver" finished-at="2024-03-20T11:43:18 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="createAdmin()[pri:0, instance:com.obsqura.tests.AdminTest@385e9564]" started-at="2024-03-20T11:43:18 IST" name="createAdmin" finished-at="2024-03-20T11:43:19 IST" duration-ms="1161" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\Remya P\eclipse-workspace\7Mart\src\test\resources\testData\testData.xlsx (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Remya P\eclipse-workspace\7Mart\src\test\resources\testData\testData.xlsx (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at com.obsqura.utils.ExcelReader.getSheetData(ExcelReader.java:16)
+at com.obsqura.tests.AdminTest.createAdmin(AdminTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.tests.AdminTest@385e9564]" started-at="2024-03-20T11:43:19 IST" name="tearDown" finished-at="2024-03-20T11:43:20 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.tests.AdminTest -->
+    </test> <!-- AdminTest -->
+    <test started-at="2024-03-20T11:43:20 IST" name="ExpenseRecordTest" finished-at="2024-03-20T11:43:28 IST" duration-ms="8672">
+      <class name="com.obsqura.tests.ExpenseRecordTest">
+        <test-method is-config="true" signature="initDriver()[pri:0, instance:com.obsqura.tests.ExpenseRecordTest@1f59a598]" started-at="2024-03-20T11:43:20 IST" name="initDriver" finished-at="2024-03-20T11:43:22 IST" duration-ms="2872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="verifyUserIsAbleTocreateExpenseRecord()[pri:0, instance:com.obsqura.tests.ExpenseRecordTest@1f59a598]" started-at="2024-03-20T11:43:22 IST" name="verifyUserIsAbleTocreateExpenseRecord" description="OBS123" finished-at="2024-03-20T11:43:28 IST" duration-ms="5550" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[invalid argument
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e584b11354420996c8bb315335358c5d, clickElement {id=f.FCC597BD151ECE203A843C21A452BC1D.d.9DE7221F0EB458550546666516D4B606.e.125}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\REMYAP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64462}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64462/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e584b11354420996c8bb315335358c5d)] -> xpath: //*[@type='file']]
+Session ID: e584b11354420996c8bb315335358c5d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e584b11354420996c8bb315335358c5d, clickElement {id=f.FCC597BD151ECE203A843C21A452BC1D.d.9DE7221F0EB458550546666516D4B606.e.125}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\REMYAP~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64462}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64462/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e584b11354420996c8bb315335358c5d)] -> xpath: //*[@type='file']]
+Session ID: e584b11354420996c8bb315335358c5d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at com.obsqura.utils.PageActions.clickElement(PageActions.java:46)
+at com.obsqura.utils.PageActions.uploadFile(PageActions.java:84)
+at com.obsqura.pages.ListExpensePage.createListExpense(ListExpensePage.java:46)
+at com.obsqura.tests.ExpenseRecordTest.verifyUserIsAbleTocreateExpenseRecord(ExpenseRecordTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserIsAbleTocreateExpenseRecord -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.obsqura.tests.ExpenseRecordTest@1f59a598]" started-at="2024-03-20T11:43:28 IST" name="tearDown" finished-at="2024-03-20T11:43:28 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.obsqura.tests.ExpenseRecordTest -->
+    </test> <!-- ExpenseRecordTest -->
+  </suite> <!-- Suite -->
+</testng-results>
